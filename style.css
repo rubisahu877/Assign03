@@ -1,0 +1,288 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( to right, rgb(11, 11, 11),rgb(37, 100, 100), black) ;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+.bg-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://getwallpapers.com/wallpaper/full/5/b/1/762623-top-ghost-recon-future-soldier-wallpaper-1920x1080-iphone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* overflow: hidden; */
+
+    
+}
+nav{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-nav{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.left-nav span{
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+   
+   
+}
+.center-nav{
+    display: flex;
+    gap: 4vw;
+    font-size: 1vw;
+}
+.underline{
+    text-decoration: 2px underline;
+    text-decoration-color: aqua;
+}
+.right-nav button{
+    padding: 0.8vw 3vw;
+    border-radius: 2rem;
+    background: #262525;
+    border: 0.2rem solid rgb(6, 150, 158);
+    color: azure;
+
+}
+header{
+    width: 100%;
+  
+
+    position: absolute;
+    top: 15%;
+    /* left: 5vw;
+    right: 20vw; */
+    color: azure;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    gap: 65vw;
+}
+.header-left{
+    width: 20vw;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.header-left h1{
+   
+    margin-left: 1rem;
+     font-size: 8vw;
+    font-weight: 500;
+   
+}
+.header-left h1 span{
+    color: rgb(6, 150, 158);
+
+}
+.header-left p{
+    padding: 1rem;
+   
+    /* font-size: 8vw;
+    font-weight: 900; */
+    
+  
+
+}
+.header-left button{
+     margin: 0.3vw 2vw;
+     padding: 0.6rem 2vw;
+     border: 0.2rem solid rgb(6, 150, 158) ;
+     border-radius: 1rem;
+     color: azure;
+     background: linear-gradient(to right ,black, rgb(6, 150, 158));
+}
+.header-right{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.icon{
+    font-size: 1.5vw;
+    display: flex;
+}
+.icon img{
+    height: 2vw;
+    width: 2vw;
+}
+
+section{
+    width: 90vw;
+    position: absolute;
+    top: 80%;
+    color: azure;
+    left: 3vw;
+}
+
+
+.div-parents{
+    height: 8vw;
+    width: 90vw;
+    position: relative;
+    overflow: hidden;
+  
+
+}
+.section-part{
+    
+    filter: blur(15px);
+    background-color: rgba(135, 188, 199, 0.214);
+    border: 3px solid azure;
+    border-radius: 5vw;
+    position: absolute;
+    inset: 0;
+   
+}
+.div-child{
+    z-index: 2;
+    position: relative;
+    /* top: -100; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.div-img img{
+    height: 8vw;
+    width: 8vw;
+ 
+}
+.div span{
+    color: rgb(28, 220, 234);
+    font-size: 2rem;
+}
+.div{
+    font-style: oblique;
+}
+.footer1{
+    height: 7vw;
+    width: 100%;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-div3 img{
+    height: 5vw;
+}
+.footer-div2 span{
+    color: rgb(6, 150, 158) ;
+}
+.footer-div2{
+    font-size: 1.5vw;
+}
+
+.footer2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.footer2-div{
+    height: 90%;
+    width: 25%;
+    background-color: rgb(10, 10, 19);
+    border-radius: 1rem;
+    border: 2px solid rgb(6, 150, 158);
+
+}
+.footer2-div img{
+    height: 70%;
+    width: 100%;
+    border-radius: 1rem;
+
+}
+.footer2-div p{
+    color: rgb(6, 150, 158);
+   font-size: 0.5rem;
+   margin: 1rem;
+}
+.inner-img img{
+     height: 2vw;
+     margin-left: 5rem;
+}
+
+.footer3{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer3-div{
+    height:70%;
+    width: 80%;
+    background: linear-gradient( to right ,black ,rgb(32, 63, 63) ,black) ;
+    border: 1px solid aqua;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(142, 184, 184);
+   
+}
+.div-inner1{
+    font-size: 0.8rem;
+}
+.div-inner1 h1{ 
+    font-size:  1rem;
+}
+.div-inner1 button{
+    padding: 0.6rem 2vw;
+     border: 0.1rem solid rgb(6, 150, 158) ;
+     border-radius: 1rem;
+     color: azure;
+     background: linear-gradient(to right ,black, rgb(6, 150, 158));
+
+}
+.div-inner2{
+    font-size: 0.7rem;
+}
+.div-inner2 h1{
+    display: flex;
+    font-size: 1rem;
+    gap: 0.5rem;
+
+}
+.div-inner2 h1 div{
+    font-size: 2rem;
+}
+.div-inner3{
+    font-size: 0.8rem;
+}
+
+
+   
+    
+
+
+
+
+
